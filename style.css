@@ -1,0 +1,138 @@
+/*GENERAL*/
+
+body{
+    background-color: white;
+    box-sizing: border-box;
+    color: black;
+    font-family: Calibri;
+    margin: 0;
+    padding: 0;     
+}
+
+/*HEADER*/
+
+.container {
+    display: grid;
+    grid-template-columns: 30% 10% 10% 10% 10% 30%;
+    background-color:whitesmoke;
+    margin: 0px;
+    height: auto;
+}
+
+#containerBox {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    }
+
+.box1{grid-column-start: 2;}
+
+h2 {
+    font-size: 21px;
+    color:black;
+}
+
+ /*SECTION HOME*/
+
+.sectionHome {
+    background-image: url("media/kartki2.jpg");
+    
+}
+
+
+.overlay {
+    position: relative;
+    align-content: center;  
+}
+
+.name {
+    height: 1000px;
+    width: 100%;
+}
+
+/* SECTION ABOUT ME */
+.sectionAboutMe{
+    display: flex;
+    flex-direction: row;
+    max-height: 751px ;
+    }
+
+.description {
+    background-color: gray;
+    height: 751px;
+    margin:0px;
+    padding: 50px;
+    box-sizing: border-box;
+    font-size: 40px;
+    color:  whitesmoke;
+}
+
+.img{
+    overflow: hidden;
+    height: 751px;
+    min-width: 500px;
+    box-sizing: border-box;
+    
+}
+
+
+.description h2 {
+    font-size: 60px;
+    color: whitesmoke;
+}
+
+/* portfolio */
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    height: 100px;
+}
+
+.portfolio {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    max-height: 500mm;
+    
+}
+.item {
+    margin:50px;  
+}
+
+/*CONTACT*/
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    
+}
+
+.kon {
+    background-color:gray;
+    padding: 50px;
+    width: 49.8%;
+    text-align: end;
+    box-sizing: border-box;
+    font-size: 50px;
+    color:  whitesmoke;
+    
+}
+
+
+
+.dane{
+    background-color: gray;
+    width: 49.8%;
+    padding: 50px;
+    text-align: start;
+    font-size: 21px;
+    color:  whitesmoke;
+    box-sizing: border-box;
+     
+}
+
